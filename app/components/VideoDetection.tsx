@@ -368,7 +368,6 @@ export default function VideoDetection() {
           </section>
         )}
         {!sessionReady && video && <p className="text-center text-xs text-slate-500">Restoring saved chats...</p>}
-        <div className="rounded-xl border border-white/10 bg-white/[0.03] p-3"><p className="text-xs font-medium text-slate-300">Phase 6 · Live streaming chat</p><p className="mt-1 text-[10px] leading-5 text-slate-500">Token-by-token responses · Collapsible sources · Copy · Retry · Stop generation</p></div>
       </section>
     </main>
   );
